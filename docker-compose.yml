@@ -38,8 +38,8 @@ services:
     volumes:
       - ./jupyter_notebooks:/home/notebooks
     ports:
-      - "8888:8888"
-      - "8797:8797"
+      - "888:8888"
+      - "87:8797"
 
 volumes:
   sql_scripts:
